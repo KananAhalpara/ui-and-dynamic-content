@@ -87,7 +87,7 @@ button:active {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     padding: 1rem 4rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 3px solid #726ef7;
     border-radius: 50px;
     font-size: 1.1rem;   
