@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito');
+
+body{
+    max-width: 50%;
+    width:50%;
+    padding: 40px;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.widget{
+    max-width: 45rem;
+    width:45rem;
+    padding: 0 5rem;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bg{
+    padding: 60px;
+    background-image: url(../img/bg.png);
+    background-color: #4a32a6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-content{
+    padding: 0 40px;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #4a32a6;
+    margin: 1rem;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    color: #4a32a6;
+    font-size: 1.2rem;
+}
+
+img{
+    max-height: 100%;
+    height: 100px;
+    width: auto;
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    min-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem 4rem;
+    border: 3px solid #726ef7;
+    background-color: #4a32a6;
+    color: white;
+    border-radius: 50px;
+}
+
+button:hover {
+    border: 3px solid #726ef7;
+    background-color: #726ef7;
+    color: #fff;
+}
+
+button:active {
+    border: 3px solid #726ef7;
+    background-color: #4a32a6;
+    color: #fff;
+}
+
+[type="text"] {
+    width: 100%;
+    min-width: 200px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    border: 3px solid #726ef7;
+    border-radius: 50px;
+    font-size: 1.1rem;   
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li:before {
+    content: "\203A  ";
+}
+
+ul li {
+    width: 100%;
+    min-width: 200px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #4a32a6;
+    font-size: 1.2rem;
+    margin: 1rem;
+    list-style: none;
+    border-bottom: 3px solid #726ef7;
+}
+
+a{
+    color: #726ef7; 
+}
+
+footer{
+    padding: 0 8rem;
+    font-size: 2rem;
+    color: #726ef7;
+}
